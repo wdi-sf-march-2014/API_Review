@@ -1,3 +1,3 @@
 Api::Application.routes.draw do
-  post '/save_form' => 'apis#save_form'
+  post '/message' => 'apis#message'
 end
