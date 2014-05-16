@@ -1,0 +1,7 @@
+<%= form_tag('/send', method: 'post') do %>
+  <%= label_tag(:title) %>
+  <%= text_field_tag(:title) %>
+  <%= label_tag(:message) %>
+  <%= text_area_tag(:message) %>
+  <%= submit_tag("Send") %>
+<% end %>
